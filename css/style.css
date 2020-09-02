@@ -1,0 +1,82 @@
+body {
+	background: url('../img/IMG_5354.jpg')  no-repeat center fixed;
+	background-size: cover;
+	font-family: Tahoma, Geneva, sans-serif;
+	/*background-image: url('../img/bgr1.jpg');*/
+
+}
+
+.navbar {
+	background-image: url('../img/bgr1.jpg');
+}
+
+
+
+.border-1 {
+	border-bottom: 1px solid #401823 !important;
+	border-width:10px !important;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	padding-bottom: 2%;
+}
+
+.border-2 {
+	border-bottom: 5px solid #401823 !important;
+	color: #401823;
+	background-image: url('../img/bgr1.jpg');
+}
+
+.li-margin {
+	margin-left: 10% !important;
+}
+
+.h-margin {
+	margin-top: 30%;
+}
+
+.logo-header {
+	background-color: #401823;
+}
+
+.fixed-top-2 {
+	margin-top: 79px;
+}
+
+.fixed-top-3 {
+	margin-top: 135px;
+}
+
+#footer {
+    color: silver;
+}
+
+  .no-margin {
+  	margin: 0;
+}
+
+  .lang-mutation {
+    display: inline;
+    width: 20%;
+    float: right;
+    margin-top: 42px;
+    text-align: right;
+    font-size: 0.7em;
+}
+
+  .lang-mutation a {
+     text-decoration: none;
+     margin-right: 5%;
+}
+
+  #lang-active {
+  	color: white;
+}
+
+  #lang-inactive {
+  	color: grey;
+}
+
+.team {
+	margin-top: 3%;
+	background-image: url('../img/bgr1.jpg');
+}
