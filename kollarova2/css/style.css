@@ -92,3 +92,7 @@ h5, h4, h3, h2, p {
 .row {
 	background-color: #401823;
 }
+
+.list-group-item {
+	background-image: url('../img/bgr1.jpg');
+}
