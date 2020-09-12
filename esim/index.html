@@ -11,7 +11,7 @@
 <script>
 	var URL = "http://secura.e-sim.org/apiCitizenById.html?id=33925"
 	$.getJSON(URL, function(d) {
-  	//console.log(d.login)
+  	console.log(d.login)
   	$('#player').val(d.login[0])
 	})
 </script>
