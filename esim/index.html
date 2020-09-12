@@ -7,7 +7,17 @@
 	</script>
 </head>
 <body>
-	<div class="player"></div>
+	<div class="player">
+		<script>
+		function setup() {
+			loadJSON("http://secura.e-sim.org/apiCitizenById.html?id=33925", gotData);
+		}
+		function gotData(data) {
+			println(data);
+		}
+
+		</script>
+	</div>
 	<script>
 		$.getJSON('http://secura.e-sim.org/apiCitizenById.html?id=33925', function(data) {
 
@@ -19,5 +29,8 @@
         $(".player").html(text);
     	});
 	</script>
+
+
+
 </body>
 </html>
