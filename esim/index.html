@@ -8,17 +8,16 @@
 <body>
 	<script>
 		async function get() {
-    let url = 'http://secura.e-sim.org/apiCitizenById.html?id=33925'
-    let obj = await (await fetch(url)).json();
+    		let url = 'http://secura.e-sim.org/apiCitizenById.html?id=33925'
+    		let obj = await (await fetch(url)).json();
 
-    //console.log(obj);
-    return obj;
-}
-var tags;
-(async () => {
-  tags = await get()
-  document.getElementById("tags").innerHTML = JSON.stringify(tags);
-})()
+    		return obj;
+		}
+		var tags;
+		(async () => {
+  			tags = await get()
+  			document.getElementById("tags").innerHTML = JSON.stringify(tags);
+		})()
 	</script>
 
 <div id="tags"></div>
