@@ -11,14 +11,13 @@
 <script>
 	var URL = "http://secura.e-sim.org/apiCitizenById.html?id=33925"
 	$.getJSON(URL, function(d) {
-  	//console.log(d.quotes.USDAED)
-  	$('#player').val(d.login)
+  	//console.log(d.login)
+  	$('#player').val(d.login[0])
 	})
 </script>
 
 
 	<div id="player">
-		Text
 	</div>
 
 </body>
