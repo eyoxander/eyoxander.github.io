@@ -7,31 +7,19 @@
 	</script>
 </head>
 <body>
-	<div class="player">
+
+<script>
+	var URL = "http://secura.e-sim.org/apiCitizenById.html?id=33925"
+	$.getJSON(URL, function(d) {
+  	//console.log(d.quotes.USDAED)
+  	$('#player').val(d.login)
+	})
+</script>
+
+
+	<div id="player">
 		Text
-		<script>
-		function setup() {
-			loadJSON("http://secura.e-sim.org/apiCitizenById.html?id=33925", gotData);
-		}
-		function gotData(data) {
-			println(data);
-		}
-
-		</script>
 	</div>
-	<script>
-		$.getJSON('http://secura.e-sim.org/apiCitizenById.html?id=33925', function(data) {
-
-        var text = `Login: ${data.login}<br>
-                    Rank: ${data.rank}<br>
-                    Citizenship: ${data.citizenship}`
-
-
-        $(".player").html(text);
-    	});
-	</script>
-
-
 
 </body>
 </html>
