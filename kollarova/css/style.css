@@ -1,9 +1,8 @@
 body {
 	background: url('../img/bgrd.jpg')  no-repeat center fixed;
 	background-size: cover;
+	margin-top: 214px;
 	font-family: Tahoma, Geneva, sans-serif;
-	/*background-image: url('../img/bgr1.jpg');*/
-
 }
 
 .navbar {
