@@ -6,7 +6,8 @@ body {
 }
 
 .navbar {
-	background-image: url('../img/bgr1.jpg');
+	/*background-image: url('../img/bgr1.jpg');*/
+	background-image: linear-gradient(black, gold);
 }
 
 
