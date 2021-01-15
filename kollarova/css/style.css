@@ -10,10 +10,6 @@ body {
 	background-image: linear-gradient(black, gold, black);
 }
 
-.navbar-brand {
-	float: top;
-}
-
 .border-1 {
 	border-bottom: 1px solid #401823 !important;
 	border-width:10px !important;
@@ -44,7 +40,6 @@ body {
 
 .logo-header {
 	background-color: black;
-	height: 51px;
 }
 
 .fixed-top-2 {
