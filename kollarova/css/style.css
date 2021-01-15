@@ -7,7 +7,7 @@ body {
 
 .navbar {
 	/*background-image: url('../img/bgr1.jpg');*/
-	background-image: linear-gradient(black, gold), black;
+	background-image: linear-gradient(black, gold, black);
 }
 
 
@@ -41,7 +41,7 @@ body {
 }
 
 .logo-header {
-	/*background-color: #401823;*/
+	background-color: black;
 }
 
 .fixed-top-2 {
