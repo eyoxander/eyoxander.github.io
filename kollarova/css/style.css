@@ -8,7 +8,7 @@ body, html {
 	background-image: url('../img/bgrd.jpg');
 	height: 100%;
 	background-position: center; 
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
   	background-size: cover;
 }
 
