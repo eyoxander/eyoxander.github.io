@@ -28,7 +28,7 @@ body {
 	border-bottom: 5px solid #401823 !important;
 	color: #401823;
 	/*background-image: url('../img/bgr1.jpg');*/
-	background-image: linear-gradient(black, gold, black);
+	background-color: gold;
 }
 
 .li-margin {
@@ -84,5 +84,5 @@ body {
 .team {
 	margin-top: 3%;
 	/*background-image: url('../img/bgr1.jpg');*/
-	background-image: linear-gradient(black, gold, black);
+	background-color: gold;
 }
