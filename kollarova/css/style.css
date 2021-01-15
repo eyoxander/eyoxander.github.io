@@ -3,8 +3,9 @@ body {
 	background-repeat: no-repeat;
   	background-attachment: fixed;  
   	background-size: cover;
-	background-position: 0px 135px;
+	background-position: center;
 	font-family: Tahoma, Geneva, sans-serif;
+	margin-top: 135px;
 }
 
 .navbar {
