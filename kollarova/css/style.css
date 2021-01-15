@@ -1,5 +1,5 @@
 body {
-	background: url('../img/bgrd.jpg')  no-repeat center fixed;
+	background: url('../img/bgrd.jpg')  no-repeat center;
 	background-size:100% 100%;
 	/*background-position: 0px 135px;*/
 	font-family: Tahoma, Geneva, sans-serif;
@@ -27,7 +27,8 @@ body {
 .border-2 {
 	border-bottom: 5px solid #401823 !important;
 	color: #401823;
-	background-image: url('../img/bgr1.jpg');
+	/*background-image: url('../img/bgr1.jpg');*/
+	background-image: linear-gradient(black, gold, black);
 }
 
 .li-margin {
@@ -82,5 +83,6 @@ body {
 
 .team {
 	margin-top: 3%;
-	background-image: url('../img/bgr1.jpg');
+	/*background-image: url('../img/bgr1.jpg');*/
+	background-image: linear-gradient(black, gold, black);
 }
