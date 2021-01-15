@@ -10,7 +10,9 @@ body {
 	background-image: linear-gradient(black, gold, black);
 }
 
-
+.navbar-brand {
+	float: top;
+}
 
 .border-1 {
 	border-bottom: 1px solid #401823 !important;
