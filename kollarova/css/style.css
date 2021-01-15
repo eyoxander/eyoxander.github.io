@@ -1,6 +1,6 @@
 body {
 	background: url('../img/bgrd.jpg')  no-repeat center fixed;
-	background-size: contain;
+	background-size: contain cover;
 	background-position: 0px 135px;
 	font-family: Tahoma, Geneva, sans-serif;
 }
