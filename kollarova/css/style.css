@@ -1,5 +1,5 @@
 body {
-	background: url('../img/bgrd.jpg')  no-repeat center scroll;
+	background: url('../img/bgrd.jpg') fixed center no-repeat cover;
 	/*background-size:100% 100%;*/
 	background-position: 0px 135px;
 	font-family: Tahoma, Geneva, sans-serif;
