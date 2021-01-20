@@ -7,6 +7,7 @@ body, html {
 }
 
 .bg {
+	margin-top: 135px;
 	background-image: url('../img/bgrd.jpg');
 	/*height: 100%;*/
 	background-position: center;
